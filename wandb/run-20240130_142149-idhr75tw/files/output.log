@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/main.py", line 87, in <module>
+    model.load_state_dict(torch.load('best_dgi2.pkl'))
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 2152, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for DGI:
+	Missing key(s) in state_dict: "dis.f_k.weight", "dis.f_k.bias".
+	Unexpected key(s) in state_dict: "disc.f_k.weight", "disc.f_k.bias".

@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/main.py", line 90, in <module>
+    embeds, _ = model.embed(features, adj, func, sparse = True, msk = None)
+TypeError: embed() got an unexpected keyword argument 'sparse'

@@ -1,0 +1,45 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.10",
+    "heartbeatAt": "2024-01-30T13:28:39.340609",
+    "startedAt": "2024-01-30T13:28:38.641213",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "git@github.com:TianzhengHU/ML4Graphs_DGI.git",
+        "commit": "e725b30600f826683a085de25606db9dd6f7f6af"
+    },
+    "email": "mashtz@163.com",
+    "root": "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI",
+    "host": "hutianzhengdeMacBook-Pro.local",
+    "username": "hutianzheng",
+    "executable": "/opt/anaconda3/envs/DeepL/bin/python3.8",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 9.435829162597656
+        }
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

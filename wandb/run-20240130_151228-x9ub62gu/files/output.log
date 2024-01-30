@@ -1,0 +1,62 @@
+
+Epoch: 0 Loss: 0.6931531429290771
+Epoch: 1 Loss: 0.6929292678833008
+Epoch: 2 Loss: 0.6973176002502441
+Epoch: 3 Loss: 0.6934255361557007
+Epoch: 4 Loss: 0.6941087245941162
+Epoch: 5 Loss: 0.6921692490577698
+Epoch: 6 Loss: 0.6935165524482727
+Epoch: 7 Loss: 0.6933446526527405
+Epoch: 8 Loss: 0.6918971538543701
+Epoch: 9 Loss: 0.6915865540504456
+Epoch: 10 Loss: 0.6916350722312927
+Epoch: 11 Loss: 0.690844714641571
+Epoch: 12 Loss: 0.689739465713501
+Epoch: 13 Loss: 0.6898975968360901
+Epoch: 14 Loss: 0.6893687844276428
+Epoch: 15 Loss: 0.687654972076416
+Epoch: 16 Loss: 0.6878374814987183
+Epoch: 17 Loss: 0.6870135068893433
+Epoch: 18 Loss: 0.6869357824325562
+Epoch: 19 Loss: 0.6858097314834595
+Epoch: 20 Loss: 0.6853893995285034
+Epoch: 21 Loss: 0.6847059726715088
+Epoch: 22 Loss: 0.6841155886650085
+Epoch: 23 Loss: 0.6834064722061157
+Epoch: 24 Loss: 0.6831637620925903
+Epoch: 25 Loss: 0.6828976273536682
+Epoch: 26 Loss: 0.6829610466957092
+Epoch: 27 Loss: 0.6821339130401611
+Epoch: 28 Loss: 0.6821047067642212
+Epoch: 29 Loss: 0.6816505193710327
+Epoch: 30 Loss: 0.6809619665145874
+Epoch: 31 Loss: 0.6792377233505249
+Epoch: 32 Loss: 0.6790382266044617
+Epoch: 33 Loss: 0.6794780492782593
+Epoch: 34 Loss: 0.6792654991149902
+Epoch: 35 Loss: 0.6797402501106262
+Epoch: 36 Loss: 0.6798109412193298
+Epoch: 37 Loss: 0.6782019734382629
+Epoch: 38 Loss: 0.6782771348953247
+Epoch: 39 Loss: 0.6788358092308044
+Epoch: 40 Loss: 0.6770039796829224
+Epoch: 41 Loss: 0.6771966814994812
+Epoch: 42 Loss: 0.6774699687957764
+Epoch: 43 Loss: 0.6770946383476257
+Epoch: 44 Loss: 0.6782024502754211
+Epoch: 45 Loss: 0.6773024797439575
+Epoch: 46 Loss: 0.6774150729179382
+Epoch: 47 Loss: 0.6769663691520691
+Epoch: 48 Loss: 0.6769177913665771
+Epoch: 49 Loss: 0.676199734210968
+Loading 49th epoch
+Traceback (most recent call last):
+  File "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/main.py", line 89, in <module>
+    model.load_state_dict(torch.load('best_dgi1.pkl'))
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/serialization.py", line 986, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/serialization.py", line 435, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/serialization.py", line 416, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'best_dgi1.pkl'
