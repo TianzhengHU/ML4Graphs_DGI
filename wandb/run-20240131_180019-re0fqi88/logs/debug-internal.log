@@ -1,0 +1,1136 @@
+2024-01-31 18:00:19,795 INFO    StreamThr :48646 [internal.py:wandb_internal():86] W&B internal server running at pid: 48646, started at: 2024-01-31 18:00:19.790628
+2024-01-31 18:00:19,797 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status
+2024-01-31 18:00:19,801 INFO    WriterThread:48646 [datastore.py:open_for_write():85] open: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/run-re0fqi88.wandb
+2024-01-31 18:00:19,802 DEBUG   SenderThread:48646 [sender.py:send():380] send: header
+2024-01-31 18:00:19,860 DEBUG   SenderThread:48646 [sender.py:send():380] send: run
+2024-01-31 18:00:21,565 INFO    SenderThread:48646 [dir_watcher.py:__init__():211] watching files in: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files
+2024-01-31 18:00:21,565 INFO    SenderThread:48646 [sender.py:_start_run_threads():1124] run started: re0fqi88 with start time 1706720419.791303
+2024-01-31 18:00:21,582 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: check_version
+2024-01-31 18:00:21,582 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: check_version
+2024-01-31 18:00:21,644 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: run_start
+2024-01-31 18:00:21,646 DEBUG   HandlerThread:48646 [system_info.py:__init__():32] System info init
+2024-01-31 18:00:21,646 DEBUG   HandlerThread:48646 [system_info.py:__init__():47] System info init done
+2024-01-31 18:00:21,646 INFO    HandlerThread:48646 [system_monitor.py:start():194] Starting system monitor
+2024-01-31 18:00:21,646 INFO    SystemMonitor:48646 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-31 18:00:21,646 INFO    HandlerThread:48646 [system_monitor.py:probe():214] Collecting system info
+2024-01-31 18:00:21,647 INFO    SystemMonitor:48646 [interfaces.py:start():190] Started cpu monitoring
+2024-01-31 18:00:21,647 DEBUG   HandlerThread:48646 [system_info.py:probe():196] Probing system
+2024-01-31 18:00:21,647 INFO    SystemMonitor:48646 [interfaces.py:start():190] Started disk monitoring
+2024-01-31 18:00:21,650 INFO    SystemMonitor:48646 [interfaces.py:start():190] Started memory monitoring
+2024-01-31 18:00:21,651 INFO    SystemMonitor:48646 [interfaces.py:start():190] Started network monitoring
+2024-01-31 18:00:21,670 DEBUG   HandlerThread:48646 [system_info.py:_probe_git():181] Probing git
+2024-01-31 18:00:21,723 DEBUG   HandlerThread:48646 [system_info.py:_probe_git():189] Probing git done
+2024-01-31 18:00:21,723 DEBUG   HandlerThread:48646 [system_info.py:probe():244] Probing system done
+2024-01-31 18:00:21,723 DEBUG   HandlerThread:48646 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.10', 'heartbeatAt': '2024-01-31T17:00:21.648017', 'startedAt': '2024-01-31T17:00:19.775850', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'git@github.com:TianzhengHU/ML4Graphs_DGI.git', 'commit': '8dd7d46ebd8911b4f970ed5b391b8ef7457678d6'}, 'email': 'mashtz@163.com', 'root': '/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI', 'host': 'hutianzhengdeMacBook-Pro.local', 'username': 'hutianzheng', 'executable': '/opt/anaconda3/envs/DeepL/bin/python3.8', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 460.4317207336426, 'used': 9.435829162597656}}, 'memory': {'total': 8.0}}
+2024-01-31 18:00:21,723 INFO    HandlerThread:48646 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-31 18:00:21,724 INFO    HandlerThread:48646 [system_monitor.py:probe():227] Publishing system info
+2024-01-31 18:00:21,724 DEBUG   HandlerThread:48646 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-31 18:00:21,724 DEBUG   HandlerThread:48646 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-31 18:00:21,724 DEBUG   HandlerThread:48646 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-01-31 18:00:22,570 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/requirements.txt
+2024-01-31 18:00:22,570 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/conda-environment.yaml
+2024-01-31 18:00:26,740 DEBUG   HandlerThread:48646 [system_info.py:_save_conda():87] Saving conda packages done
+2024-01-31 18:00:26,741 INFO    HandlerThread:48646 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-31 18:00:26,748 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:00:26,748 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-31 18:00:26,748 DEBUG   SenderThread:48646 [sender.py:send():380] send: files
+2024-01-31 18:00:26,748 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-01-31 18:00:26,752 DEBUG   SenderThread:48646 [sender.py:send():380] send: telemetry
+2024-01-31 18:00:26,756 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:00:26,756 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:00:26,756 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:00:27,276 INFO    wandb-upload_0:48646 [upload_job.py:push():131] Uploaded file /var/folders/yk/tq09n1b16d3gv0_xwdh9yw600000gn/T/tmp9h0kelx_wandb/vrb9hg55-wandb-metadata.json
+2024-01-31 18:00:27,516 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:00:27,517 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:00:27,517 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:00:27,518 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:00:27,587 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/conda-environment.yaml
+2024-01-31 18:00:27,587 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:00:27,587 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-metadata.json
+2024-01-31 18:00:27,587 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:00:29,633 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:00:31,542 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:00:32,062 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:00:32,062 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:00:32,062 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:00:32,064 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:00:32,657 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:00:33,661 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:00:37,096 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:00:39,146 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:00:39,147 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:00:39,147 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:00:39,149 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:00:39,887 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:00:39,889 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:00:41,875 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:00:41,890 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:00:41,908 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:00:42,506 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:00:47,991 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:00:50,925 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:00:50,928 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:00:50,929 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:00:50,934 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:00:51,012 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:00:53,162 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:00:53,959 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:00:54,167 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/config.yaml
+2024-01-31 18:00:54,802 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:00:54,802 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:00:54,802 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:00:54,803 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:00:55,172 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:00:56,173 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:00:56,812 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:00:56,812 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:00:56,824 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:00:57,278 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:00:57,279 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:00:57,279 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:00:57,279 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:00:58,180 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:00:58,182 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:00:59,287 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:01,235 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:01:01,236 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:01:01,236 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:01:01,236 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:01:02,195 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:01:02,226 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:01:04,851 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:04,851 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:01:04,852 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:01:04,852 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:01:04,852 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:01:05,203 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:01:07,318 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:01:08,626 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:01:08,627 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:01:08,627 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:01:08,628 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:01:09,410 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:01:10,415 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:01:10,637 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:11,817 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:01:11,817 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:01:11,827 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:01:11,905 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:01:12,168 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:01:12,168 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:01:12,169 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:01:12,677 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:01:14,691 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:01:16,191 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:17,738 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:01:17,740 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:01:17,740 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:01:17,742 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:01:18,710 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:01:18,733 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:01:21,655 DEBUG   SystemMonitor:48646 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-01-31 18:01:21,771 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:23,020 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:01:26,830 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:01:26,831 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:01:26,838 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:01:27,120 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:32,137 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:37,157 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:41,836 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:01:41,840 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:01:41,840 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:01:41,840 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:01:41,840 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:01:41,845 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:01:41,848 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:01:42,854 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:01:42,868 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:01:43,030 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:48,051 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:52,454 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:01:53,477 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:01:55,582 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:01:55,583 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:01:55,587 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:01:55,588 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:01:55,911 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:01:56,839 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:01:56,840 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:01:56,849 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:01:56,912 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:01:59,111 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:04,131 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:08,516 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:08,517 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:08,517 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:08,517 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:09,158 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:09,524 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:11,048 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:11,890 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:02:11,892 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:02:11,892 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:02:15,185 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:20,224 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:22,444 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:02:22,804 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:22,805 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:22,805 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:22,807 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:23,143 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:25,149 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:25,819 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:27,013 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:02:27,016 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:02:27,033 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:02:29,460 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:29,460 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:29,460 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:29,461 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:30,238 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:31,239 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:31,465 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:34,677 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:34,677 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:34,677 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:34,677 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:35,423 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:35,425 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:36,688 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:38,336 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:38,336 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:38,336 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:38,337 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:38,432 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:39,435 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:40,825 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:40,826 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:40,826 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:40,826 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:41,555 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:41,555 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:41,830 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:41,943 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:02:41,944 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:02:41,944 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:02:44,661 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:44,662 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:44,662 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:44,663 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:45,569 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:45,570 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:47,176 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:47,176 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:47,177 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:47,177 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:47,177 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:47,579 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:47,605 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:51,446 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:51,447 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:51,447 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:51,448 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:51,598 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:51,598 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:52,453 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:52,455 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:02:55,227 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:55,228 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:55,228 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:55,228 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:55,612 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:02:55,612 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:56,916 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:02:56,917 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:02:56,929 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:02:57,591 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:02:57,591 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:02:57,592 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:02:57,592 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:02:57,592 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:02:57,622 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:02:59,634 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:01,023 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:01,024 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:01,024 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:01,025 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:01,642 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:01,643 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:03,035 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:03,501 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:03,502 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:03,502 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:03,502 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:03,650 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:03,650 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:07,239 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:07,240 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:07,240 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:07,240 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:08,011 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:08,245 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:10,016 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:11,111 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:11,111 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:11,111 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:11,111 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:11,946 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:03:11,947 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:03:11,948 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:03:12,024 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:12,025 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:14,151 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:14,660 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:14,660 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:14,660 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:14,661 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:15,040 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:16,045 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:17,706 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:17,707 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:17,707 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:17,707 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:18,054 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:19,715 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:20,064 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:21,219 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:21,220 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:21,220 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:21,220 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:22,075 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:22,075 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:22,462 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:03:24,248 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:24,248 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:24,249 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:24,249 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:25,089 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:25,253 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:26,095 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:26,944 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:03:26,948 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:03:26,948 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:03:27,793 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:27,794 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:27,794 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:27,794 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:28,100 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:30,107 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:30,804 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:31,088 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:31,088 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:31,088 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:31,089 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:31,125 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:32,130 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:33,416 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:33,417 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:33,417 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:33,417 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:34,141 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:34,142 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:36,429 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:36,912 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:36,913 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:36,913 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:36,914 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:37,150 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:38,156 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:39,251 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:39,254 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:39,254 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:39,254 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:40,162 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:40,163 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:41,557 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:41,558 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:41,558 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:41,558 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:41,559 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:41,949 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:03:41,949 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:03:41,950 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:03:42,173 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:42,173 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:43,990 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:43,990 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:43,991 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:43,991 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:44,184 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:46,190 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:46,418 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:46,419 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:46,419 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:46,420 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:47,196 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:47,424 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:48,198 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:48,768 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:48,769 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:48,769 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:48,769 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:49,203 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:50,208 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:51,180 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:51,180 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:51,180 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:51,180 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:51,215 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:52,220 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:52,467 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:03:52,467 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:53,847 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:53,848 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:53,848 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:53,848 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:54,231 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:54,231 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:56,235 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:56,235 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:56,235 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:56,236 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:03:56,236 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:03:56,986 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:03:56,987 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:03:56,999 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:03:58,244 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:03:58,339 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:03:59,572 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:03:59,572 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:03:59,573 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:03:59,573 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:00,255 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:00,256 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:02,014 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:02,016 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:02,016 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:02,017 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:02,267 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:04,025 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:04,269 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:05,247 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:05,248 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:05,248 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:05,248 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:05,275 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:06,279 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:07,503 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:07,503 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:07,503 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:07,504 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:08,291 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:08,291 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:09,509 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:09,985 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:09,986 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:09,986 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:09,986 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:10,297 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:10,297 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:11,970 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:04:11,973 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:04:11,973 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:04:13,307 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:13,308 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:13,308 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:13,309 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:13,312 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:14,317 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:15,311 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:15,698 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:15,698 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:15,698 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:15,699 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:16,324 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:16,324 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:18,897 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:18,898 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:18,898 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:18,898 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:19,336 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:20,341 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:20,903 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:21,192 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:21,194 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:21,194 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:21,195 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:21,347 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:22,352 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:22,473 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:04:23,520 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:23,523 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:23,524 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:23,524 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:24,362 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:24,362 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:26,533 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:26,965 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:04:26,966 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:04:26,973 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:04:27,246 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:27,247 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:27,247 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:27,248 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:27,378 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:28,382 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:29,624 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:29,625 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:29,625 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:29,627 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:30,391 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:30,392 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:31,635 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:31,992 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:31,993 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:31,993 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:31,994 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:32,401 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:34,401 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:34,403 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:34,403 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:34,404 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:34,413 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:34,413 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:36,424 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:37,414 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:38,022 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:38,023 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:38,024 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:38,024 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:38,432 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:40,261 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:40,261 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:40,261 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:40,262 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:40,443 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:40,444 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:41,970 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:04:41,971 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:04:41,979 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:04:42,449 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:42,619 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:42,620 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:42,621 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:42,621 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:42,621 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:43,454 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:44,456 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:45,056 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:45,058 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:45,058 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:45,059 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:45,461 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:46,466 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:47,399 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:47,400 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:47,400 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:47,401 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:47,472 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:48,406 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:48,475 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:49,843 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:49,844 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:49,844 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:49,844 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:50,486 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:50,486 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:52,214 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:52,215 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:52,215 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:52,217 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:52,476 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:04:52,492 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:53,482 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:54,502 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:55,624 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:55,625 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:55,625 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:55,625 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:56,513 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:04:56,513 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:04:56,973 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:04:56,974 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:04:56,983 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:04:59,160 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:04:59,302 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:04:59,303 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:04:59,303 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:04:59,304 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:04:59,526 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:00,529 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:01,538 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:01,540 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:01,540 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:01,541 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:02,538 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:02,538 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:03,763 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:03,764 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:03,764 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:03,764 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:04,549 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:04,549 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:04,769 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:06,016 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:06,017 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:06,017 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:06,018 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:06,558 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:06,559 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:08,270 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:08,271 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:08,271 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:08,271 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:08,569 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:10,281 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:10,547 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:10,549 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:10,549 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:10,549 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:10,577 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:10,578 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:11,977 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:05:11,977 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:05:11,987 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:05:12,584 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:12,787 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:12,787 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:12,787 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:12,788 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:13,590 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:14,592 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:15,142 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:15,142 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:15,142 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:15,143 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:15,594 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:16,148 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:16,599 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:17,533 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:17,534 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:17,535 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:17,535 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:17,605 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:18,608 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:19,976 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:19,977 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:19,977 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:19,977 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:20,618 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:20,619 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:21,986 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:22,303 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:22,305 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:22,305 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:22,306 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:22,482 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:05:22,629 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:24,637 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:24,650 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:24,651 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:24,652 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:24,652 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:25,640 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:26,644 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:26,982 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:05:26,983 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:05:26,992 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:05:27,096 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:27,249 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:27,249 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:27,250 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:27,251 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:27,645 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:28,647 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:30,535 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:30,537 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:30,538 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:30,538 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:30,657 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:32,547 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:32,666 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:32,981 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:32,982 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:32,982 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:32,984 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:33,671 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:34,677 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:35,357 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:35,358 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:35,359 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:35,359 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:35,682 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:36,685 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:37,692 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:37,692 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:37,694 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:37,694 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:37,694 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:38,691 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:38,691 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:40,044 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:40,045 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:40,045 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:40,046 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:40,701 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:40,702 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:41,984 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:05:41,985 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:05:41,997 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:05:43,141 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:43,363 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:43,364 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:43,365 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:43,365 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:43,716 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:44,721 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:45,645 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:45,645 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:45,645 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:45,646 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:45,727 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:46,729 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:48,141 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:48,142 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:48,143 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:48,143 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:48,144 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:48,736 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:48,736 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:51,384 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:51,386 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:51,386 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:51,387 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:51,749 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:52,487 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:05:52,755 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:53,488 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:53,631 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:53,632 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:53,632 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:53,633 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:53,760 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:54,764 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:55,925 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:55,926 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:55,926 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:55,926 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:56,776 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:05:56,776 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:05:56,987 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:05:56,987 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:05:56,999 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:05:59,191 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:05:59,192 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:05:59,192 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:05:59,192 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:05:59,193 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:05:59,787 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:00,791 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:01,477 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:01,478 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:01,478 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:01,478 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:01,796 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:02,801 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:03,821 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:03,822 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:03,822 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:03,824 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:04,809 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:04,809 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:04,830 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:06:07,342 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:07,344 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:07,344 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:07,344 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:08,088 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:09,094 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:10,354 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:06:11,055 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:11,055 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:11,055 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:11,055 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:11,103 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:11,992 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-31 18:06:11,992 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: stop_status
+2024-01-31 18:06:12,000 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:06:13,114 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:13,386 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:13,387 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:13,387 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:13,389 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:14,120 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:15,125 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:15,396 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:06:15,713 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:15,713 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:15,713 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:15,714 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:16,130 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:17,135 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:18,108 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:18,109 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:18,109 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:18,117 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:18,140 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:19,146 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:20,433 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:20,435 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:06:20,435 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:20,435 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:20,436 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:21,156 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:22,492 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:06:22,772 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:22,773 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:22,774 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:22,774 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:23,167 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:23,167 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:25,174 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:25,296 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,296 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,296 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,297 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,344 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,344 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,344 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,344 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,370 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,370 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,370 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,370 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,397 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,397 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,397 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,398 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,425 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,425 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,425 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,426 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,452 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,453 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,453 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,453 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:06:25,453 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,478 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,479 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,479 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,479 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,504 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,505 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,505 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,505 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,531 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,531 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,531 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,531 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,557 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,557 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,558 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,558 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,583 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,584 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,584 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,584 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,610 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,610 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,610 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,610 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,636 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,636 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,637 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,637 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,662 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,662 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,663 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,663 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,688 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,689 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,689 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,689 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,715 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,715 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,715 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,715 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,740 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,741 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,741 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,741 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,766 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,767 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,767 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,767 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,792 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,793 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,793 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,793 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,819 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,819 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,819 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,819 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,845 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,845 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,845 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,845 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,871 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,871 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,871 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,872 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,897 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,897 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,897 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,897 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,923 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,923 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,923 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,923 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,949 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,949 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,949 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,949 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:25,975 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:25,976 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:25,976 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:25,976 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,002 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,003 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,003 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,004 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,028 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,028 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,028 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,028 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,054 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,054 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,054 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,055 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,080 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,080 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,080 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,080 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,105 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,106 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,106 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,106 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,132 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,132 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,132 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,133 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,159 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,159 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,159 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,159 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,179 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:26,186 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,186 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,186 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,186 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,212 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,212 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,212 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,212 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,238 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,238 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,238 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,238 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,265 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,265 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,265 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,265 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,291 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,291 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,292 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,292 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,317 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,318 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,318 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,318 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,343 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,343 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,343 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,344 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,369 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,370 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,370 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,370 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,396 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,396 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,396 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,396 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,422 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,422 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,423 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,423 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,448 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,449 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,449 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,449 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,475 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,475 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,475 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,475 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,501 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,501 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,501 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,501 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,527 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,527 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,527 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,527 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,553 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,553 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,553 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,553 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,579 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,579 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,579 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,579 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,605 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: partial_history
+2024-01-31 18:06:26,605 DEBUG   SenderThread:48646 [sender.py:send():380] send: history
+2024-01-31 18:06:26,605 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: summary_record
+2024-01-31 18:06:26,606 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,610 DEBUG   SenderThread:48646 [sender.py:send():380] send: telemetry
+2024-01-31 18:06:26,611 DEBUG   SenderThread:48646 [sender.py:send():380] send: exit
+2024-01-31 18:06:26,612 INFO    SenderThread:48646 [sender.py:send_exit():585] handling exit code: 0
+2024-01-31 18:06:26,619 INFO    SenderThread:48646 [sender.py:send_exit():587] handling runtime: 364
+2024-01-31 18:06:26,619 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,619 INFO    SenderThread:48646 [sender.py:send_exit():593] send defer
+2024-01-31 18:06:26,620 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:26,620 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 0
+2024-01-31 18:06:26,620 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:26,620 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 0
+2024-01-31 18:06:26,620 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 1
+2024-01-31 18:06:26,620 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:26,620 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 1
+2024-01-31 18:06:26,620 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:26,620 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 1
+2024-01-31 18:06:26,620 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 2
+2024-01-31 18:06:26,621 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:26,621 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 2
+2024-01-31 18:06:26,621 INFO    HandlerThread:48646 [system_monitor.py:finish():203] Stopping system monitor
+2024-01-31 18:06:26,621 DEBUG   SystemMonitor:48646 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-01-31 18:06:26,621 DEBUG   SystemMonitor:48646 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-01-31 18:06:26,621 INFO    HandlerThread:48646 [interfaces.py:finish():202] Joined cpu monitor
+2024-01-31 18:06:26,622 INFO    HandlerThread:48646 [interfaces.py:finish():202] Joined disk monitor
+2024-01-31 18:06:26,622 INFO    HandlerThread:48646 [interfaces.py:finish():202] Joined memory monitor
+2024-01-31 18:06:26,622 INFO    HandlerThread:48646 [interfaces.py:finish():202] Joined network monitor
+2024-01-31 18:06:26,622 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:26,622 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 2
+2024-01-31 18:06:26,622 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 3
+2024-01-31 18:06:26,623 DEBUG   SenderThread:48646 [sender.py:send():380] send: stats
+2024-01-31 18:06:26,623 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:26,623 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 3
+2024-01-31 18:06:26,623 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:26,623 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 3
+2024-01-31 18:06:26,623 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 4
+2024-01-31 18:06:26,623 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:26,623 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 4
+2024-01-31 18:06:26,624 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:26,624 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 4
+2024-01-31 18:06:26,624 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 5
+2024-01-31 18:06:26,624 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:26,624 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 5
+2024-01-31 18:06:26,624 DEBUG   SenderThread:48646 [sender.py:send():380] send: summary
+2024-01-31 18:06:26,624 INFO    SenderThread:48646 [sender.py:_save_file():1380] saving file wandb-summary.json with policy end
+2024-01-31 18:06:26,624 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:26,624 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 5
+2024-01-31 18:06:26,624 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 6
+2024-01-31 18:06:26,624 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:26,624 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 6
+2024-01-31 18:06:26,624 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:26,624 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 6
+2024-01-31 18:06:26,629 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: status_report
+2024-01-31 18:06:26,822 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 7
+2024-01-31 18:06:26,822 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:26,822 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 7
+2024-01-31 18:06:26,822 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:26,823 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 7
+2024-01-31 18:06:27,185 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:27,186 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/config.yaml
+2024-01-31 18:06:27,187 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:27,618 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 18:06:28,614 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 8
+2024-01-31 18:06:28,615 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: poll_exit
+2024-01-31 18:06:28,615 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:28,618 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 8
+2024-01-31 18:06:28,618 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:28,618 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 8
+2024-01-31 18:06:28,619 INFO    SenderThread:48646 [job_builder.py:build():298] Attempting to build job artifact
+2024-01-31 18:06:28,622 INFO    SenderThread:48646 [job_builder.py:_get_source_type():428] is repo sourced job
+2024-01-31 18:06:28,633 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 18:06:29,193 INFO    Thread-12 :48646 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:29,455 INFO    SenderThread:48646 [job_builder.py:build():404] adding wandb-job metadata file
+2024-01-31 18:06:29,468 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 9
+2024-01-31 18:06:29,468 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: poll_exit
+2024-01-31 18:06:29,468 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:29,468 DEBUG   SenderThread:48646 [sender.py:send():380] send: artifact
+2024-01-31 18:06:29,468 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 9
+2024-01-31 18:06:29,623 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 18:06:30,190 INFO    SenderThread:48646 [sender.py:send_artifact():1458] sent artifact job-git_github.com_TianzhengHU_ML4Graphs_DGI.git_main.py - {'id': 'QXJ0aWZhY3Q6NzA5NDY3NzE2', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjEzNTE3ODU3Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzA5NDY3NzE2', 'versionIndex': 4}}}
+2024-01-31 18:06:30,191 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:30,191 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 9
+2024-01-31 18:06:30,191 INFO    SenderThread:48646 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-01-31 18:06:30,199 INFO    SenderThread:48646 [dir_watcher.py:finish():388] scan: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files
+2024-01-31 18:06:30,200 INFO    SenderThread:48646 [dir_watcher.py:finish():402] scan save: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/requirements.txt requirements.txt
+2024-01-31 18:06:30,200 INFO    SenderThread:48646 [dir_watcher.py:finish():402] scan save: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log output.log
+2024-01-31 18:06:30,201 INFO    SenderThread:48646 [dir_watcher.py:finish():402] scan save: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/config.yaml config.yaml
+2024-01-31 18:06:30,201 INFO    SenderThread:48646 [dir_watcher.py:finish():402] scan save: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json wandb-summary.json
+2024-01-31 18:06:30,222 INFO    SenderThread:48646 [dir_watcher.py:finish():402] scan save: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/conda-environment.yaml conda-environment.yaml
+2024-01-31 18:06:30,226 INFO    SenderThread:48646 [dir_watcher.py:finish():402] scan save: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-metadata.json wandb-metadata.json
+2024-01-31 18:06:30,226 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 10
+2024-01-31 18:06:30,226 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: poll_exit
+2024-01-31 18:06:30,226 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:30,228 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 10
+2024-01-31 18:06:30,229 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:30,229 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 10
+2024-01-31 18:06:30,229 INFO    SenderThread:48646 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-31 18:06:30,623 INFO    wandb-upload_1:48646 [upload_job.py:push():131] Uploaded file /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/requirements.txt
+2024-01-31 18:06:30,629 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 18:06:30,630 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: poll_exit
+2024-01-31 18:06:30,675 INFO    wandb-upload_4:48646 [upload_job.py:push():131] Uploaded file /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/conda-environment.yaml
+2024-01-31 18:06:30,677 INFO    wandb-upload_2:48646 [upload_job.py:push():131] Uploaded file /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/config.yaml
+2024-01-31 18:06:30,683 INFO    wandb-upload_3:48646 [upload_job.py:push():131] Uploaded file /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/wandb-summary.json
+2024-01-31 18:06:30,702 INFO    wandb-upload_0:48646 [upload_job.py:push():131] Uploaded file /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/files/output.log
+2024-01-31 18:06:30,908 INFO    Thread-11 :48646 [sender.py:transition_state():613] send defer: 11
+2024-01-31 18:06:30,909 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:30,909 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 11
+2024-01-31 18:06:30,910 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:30,910 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 11
+2024-01-31 18:06:30,910 INFO    SenderThread:48646 [file_pusher.py:join():181] waiting for file pusher
+2024-01-31 18:06:30,910 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 12
+2024-01-31 18:06:30,910 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:30,910 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 12
+2024-01-31 18:06:30,910 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:30,911 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 12
+2024-01-31 18:06:30,911 INFO    SenderThread:48646 [file_stream.py:finish():595] file stream finish called
+2024-01-31 18:06:31,554 INFO    SenderThread:48646 [file_stream.py:finish():599] file stream finish is done
+2024-01-31 18:06:31,555 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 13
+2024-01-31 18:06:31,555 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:31,555 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 13
+2024-01-31 18:06:31,556 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:31,556 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 13
+2024-01-31 18:06:31,556 INFO    SenderThread:48646 [sender.py:transition_state():613] send defer: 14
+2024-01-31 18:06:31,557 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: defer
+2024-01-31 18:06:31,557 DEBUG   SenderThread:48646 [sender.py:send():380] send: final
+2024-01-31 18:06:31,557 INFO    HandlerThread:48646 [handler.py:handle_request_defer():172] handle defer: 14
+2024-01-31 18:06:31,557 DEBUG   SenderThread:48646 [sender.py:send():380] send: footer
+2024-01-31 18:06:31,558 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: defer
+2024-01-31 18:06:31,558 INFO    SenderThread:48646 [sender.py:send_request_defer():609] handle sender defer: 14
+2024-01-31 18:06:31,560 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: poll_exit
+2024-01-31 18:06:31,560 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: poll_exit
+2024-01-31 18:06:31,562 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-31 18:06:31,563 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: server_info
+2024-01-31 18:06:31,564 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: get_summary
+2024-01-31 18:06:31,565 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: sampled_history
+2024-01-31 18:06:31,565 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: server_info
+2024-01-31 18:06:31,567 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: job_info
+2024-01-31 18:06:31,702 DEBUG   SenderThread:48646 [sender.py:send_request():407] send_request: job_info
+2024-01-31 18:06:31,705 DEBUG   HandlerThread:48646 [handler.py:handle_request():146] handle_request: shutdown
+2024-01-31 18:06:31,705 INFO    HandlerThread:48646 [handler.py:finish():866] shutting down handler
+2024-01-31 18:06:32,575 INFO    WriterThread:48646 [datastore.py:close():294] close: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240131_180019-re0fqi88/run-re0fqi88.wandb
+2024-01-31 18:06:32,704 INFO    SenderThread:48646 [sender.py:finish():1536] shutting down sender
+2024-01-31 18:06:32,704 INFO    SenderThread:48646 [file_pusher.py:finish():175] shutting down file pusher
+2024-01-31 18:06:32,704 INFO    SenderThread:48646 [file_pusher.py:join():181] waiting for file pusher

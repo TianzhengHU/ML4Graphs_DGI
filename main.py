@@ -14,9 +14,17 @@ batch_size = 1
 patience = 20
 
 nonlinearity = 'prelu'
-# Load dataset
-A, features, labels, idx_train, idx_val, idx_test = dataloader.load_data_cite()
+# dataset_name = "cora"
+dataset_name = "citeseer"
 
+# Load dataset
+A, features, labels, idx_train, idx_val, idx_test = dataloader.load_data_cite(dataset_name)
+# func = "average"
+func = "diffpool"
+# func = "sum_norm"
+
+pname = "ML4Grpahs_DGI_"
+project_name = pname + dataset_name +"_"+ func +"_"+ str(epochs)
 nb_nodes = features.shape[0]
 ft_size = features.shape[1]
 nb_classes = labels.shape[1]
@@ -27,20 +35,19 @@ features = dataloader.normalize_features(features)
 
 labels = torch.FloatTensor(labels[np.newaxis])
 
-model = DGI(ft_size, hid_units)
+model = DGI(nb_nodes,ft_size, hid_units)
 optimiser = torch.optim.Adam(model.parameters(), lr=lr)
 
 b_xent = nn.BCEWithLogitsLoss()
 xent = nn.CrossEntropyLoss()
 best = 1e9
 best_t = 0
-func = "average"
-dataset_name = "citeseer"
+
 # start a new wandb run to track this script
 wandb.init(
     # set the wandb project where this run will be logged
     project="ML4Grpahs_DGI",
-    name="ML4Grpahs_DGI",
+    name=project_name,
     # track hyperparameters and run metadata
     config={
         "model_learning_rate": lr,
@@ -84,8 +91,10 @@ for epoch in range(epochs):
 
 
 print('Loading {}th epoch'.format(best_t))
-wandb.finish()
 
+
+
+# test accuracy of the best performance model weight
 model.load_state_dict(torch.load('best_dgi.pkl'))
 embeds, _ = model.embed(features, adj, func)
 train_embs = embeds[0, idx_train]
@@ -122,14 +131,16 @@ for _ in range(50):
     preds = torch.argmax(logits, dim=1)
     acc = torch.sum(preds == test_lbls).float() / test_lbls.shape[0]
     accs.append(acc * 100)
+    wandb.log({"acc_test": acc})
     print(acc)
     tot += acc
+
 print('Average accuracy:', tot / 50)
 
 accs = torch.stack(accs)
 print("accs mean:", accs.mean())
 print("accs std:", accs.std())
 
-
+wandb.finish()
 
 

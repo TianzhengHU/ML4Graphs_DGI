@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/main.py", line 71, in <module>
+    logits = model(features, negative_features, adj, func)
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/model/DGI.py", line 29, in forward
+    return result

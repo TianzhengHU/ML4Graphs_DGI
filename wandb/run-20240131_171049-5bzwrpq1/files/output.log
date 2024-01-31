@@ -1,0 +1,5 @@
+
+Epoch: 0 Loss: 0.6931822299957275
+Traceback (most recent call last):
+  File "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/main.py", line 79, in <module>
+    best_t = epoch

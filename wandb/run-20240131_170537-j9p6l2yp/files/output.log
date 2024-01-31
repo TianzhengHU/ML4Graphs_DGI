@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/pydevd.py", line 1496, in _exec
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pydev/_pydev_imps/_pydev_execfile.py", line 18, in execfile
+    exec(compile(contents+"\n", file, 'exec'), glob, loc)
+  File "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/main.py", line 72, in <module>
+    logits = model(features, negative_features, adj, func)
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/model/DGI.py", line 35, in forward
+    result = self.disc(s, h_pos, h_neg)
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/opt/anaconda3/envs/DeepL/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/layer/Discriminator.py", line 22, in forward
+    s_x = s_x.expand_as(h_pos)

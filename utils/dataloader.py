@@ -7,11 +7,13 @@ from scipy.sparse import csr_matrix
 import numpy as np
 from scipy.sparse import identity
 
-def load_data_cite():
+def load_data_cite(dataset_name):
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-    dataset_citeseer = Planetoid(root='./data/citeseer/',name='Citeseer')
-    # dataset_citeseer = Planetoid(root='./data/cora/', name='Cora')
+    if(dataset_name == "citeseer"):
+        dataset_citeseer = Planetoid(root='./data/citeseer/',name='Citeseer')
+    if (dataset_name == "cora"):
+        dataset_citeseer = Planetoid(root='./data/cora/', name='Cora')
     print(dataset_citeseer)
 
     data_citeseer = dataset_citeseer[0].to(device)
@@ -56,12 +58,6 @@ def load_data_cite():
     idx_test = data_citeseer.test_mask
     return A, features, labels, idx_train, idx_val, idx_test
 
-
-def normalize_adj(A):
-    # renormalized the adj matrix and as coo
-    return A
-
-
 def get_A_hat_torch(A):
     # A_hat = DAD
     A_tilde = coo_matrix(A, dtype=float)
@@ -87,11 +83,12 @@ def normalize_features(features):
     features = torch.FloatTensor(features[np.newaxis])
     return features
 
-A, features, labels, idx_train, idx_val, idx_test = load_data_cite()
-adj = get_A_hat_torch(A)
-features = normalize_features(features)
+# A, features, labels, idx_train, idx_val, idx_test = load_data_cite(dataset_name)
+# adj = get_A_hat_torch(A)
+# features = normalize_features(features)
+#
+# labels = torch.FloatTensor(labels[np.newaxis])
 
-labels = torch.FloatTensor(labels[np.newaxis])
 # no need
 # x_train = torch.LongTensor(idx_train)
 # train = idx_train.type(torch.int)

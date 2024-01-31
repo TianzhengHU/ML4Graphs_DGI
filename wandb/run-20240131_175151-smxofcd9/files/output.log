@@ -1,0 +1,105 @@
+
+Epoch: 0 Loss: 0.6931649446487427
+Epoch: 1 Loss: 0.6933387517929077
+Epoch: 2 Loss: 0.6878331303596497
+Epoch: 3 Loss: 0.6869155168533325
+Epoch: 4 Loss: 0.6826663613319397
+Epoch: 5 Loss: 0.6772177219390869
+Epoch: 6 Loss: 0.6752919554710388
+Epoch: 7 Loss: 0.6666362881660461
+Epoch: 8 Loss: 0.6605283617973328
+Epoch: 9 Loss: 0.6531473398208618
+Epoch: 10 Loss: 0.6430995464324951
+Epoch: 11 Loss: 0.6376688480377197
+Epoch: 12 Loss: 0.6246832609176636
+Epoch: 13 Loss: 0.6144729852676392
+Epoch: 14 Loss: 0.5970971584320068
+Epoch: 15 Loss: 0.5879554748535156
+Epoch: 16 Loss: 0.5687141418457031
+Epoch: 17 Loss: 0.5557790398597717
+Epoch: 18 Loss: 0.5416828393936157
+Epoch: 19 Loss: 0.5144670009613037
+Epoch: 20 Loss: 0.5034865140914917
+Epoch: 21 Loss: 0.49086159467697144
+Epoch: 22 Loss: 0.46879398822784424
+Epoch: 23 Loss: 0.45217931270599365
+Epoch: 24 Loss: 0.44040873646736145
+Epoch: 25 Loss: 0.41418975591659546
+Epoch: 26 Loss: 0.40776920318603516
+Epoch: 27 Loss: 0.3798771798610687
+Epoch: 28 Loss: 0.3699701130390167
+Epoch: 29 Loss: 0.36657223105430603
+Epoch: 30 Loss: 0.34332889318466187
+Epoch: 31 Loss: 0.3336490988731384
+Epoch: 32 Loss: 0.32918843626976013
+Epoch: 33 Loss: 0.31958234310150146
+Epoch: 34 Loss: 0.3210228979587555
+Epoch: 35 Loss: 0.29489269852638245
+Epoch: 36 Loss: 0.2886277139186859
+Epoch: 37 Loss: 0.2974499762058258
+Epoch: 38 Loss: 0.27936673164367676
+Epoch: 39 Loss: 0.2588247060775757
+Epoch: 40 Loss: 0.28197044134140015
+Epoch: 41 Loss: 0.2553572952747345
+Epoch: 42 Loss: 0.2457229197025299
+Epoch: 43 Loss: 0.255777508020401
+Epoch: 44 Loss: 0.23516696691513062
+Epoch: 45 Loss: 0.23217491805553436
+Epoch: 46 Loss: 0.22904722392559052
+Epoch: 47 Loss: 0.22092179954051971
+Epoch: 48 Loss: 0.22245332598686218
+Epoch: 49 Loss: 0.21563491225242615
+Loading 49th epoch
+tensor(0.7960)
+tensor(0.7940)
+tensor(0.7940)
+tensor(0.7940)
+tensor(0.7930)
+tensor(0.7960)
+tensor(0.7960)
+tensor(0.7930)
+tensor(0.7940)
+tensor(0.7940)
+tensor(0.7940)
+tensor(0.7960)
+tensor(0.7960)
+tensor(0.7940)
+tensor(0.7940)
+tensor(0.7940)
+tensor(0.7940)
+tensor(0.7940)
+tensor(0.7970)
+tensor(0.7960)
+tensor(0.7930)
+tensor(0.7970)
+tensor(0.7910)
+tensor(0.7940)
+tensor(0.7940)
+tensor(0.7950)
+tensor(0.7920)
+tensor(0.7950)
+tensor(0.7890)
+tensor(0.7950)
+tensor(0.7960)
+tensor(0.7920)
+tensor(0.7950)
+tensor(0.7960)
+tensor(0.7920)
+tensor(0.7930)
+tensor(0.7950)
+tensor(0.7970)
+tensor(0.7960)
+tensor(0.7950)
+tensor(0.7950)
+tensor(0.7920)
+tensor(0.7960)
+tensor(0.7950)
+tensor(0.7930)
+tensor(0.7950)
+tensor(0.7900)
+tensor(0.7950)
+tensor(0.7940)
+tensor(0.7940)
+Average accuracy: tensor([0.7943])
+accs mean: tensor(79.4280)
+accs std: tensor(0.1715)

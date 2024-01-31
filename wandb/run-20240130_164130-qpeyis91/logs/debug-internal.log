@@ -1,0 +1,56 @@
+2024-01-30 16:41:30,238 INFO    StreamThr :33898 [internal.py:wandb_internal():86] W&B internal server running at pid: 33898, started at: 2024-01-30 16:41:30.236842
+2024-01-30 16:41:30,240 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: status
+2024-01-30 16:41:30,254 INFO    WriterThread:33898 [datastore.py:open_for_write():85] open: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240130_164130-qpeyis91/run-qpeyis91.wandb
+2024-01-30 16:41:30,254 DEBUG   SenderThread:33898 [sender.py:send():380] send: header
+2024-01-30 16:41:30,300 DEBUG   SenderThread:33898 [sender.py:send():380] send: run
+2024-01-30 16:41:30,682 INFO    SenderThread:33898 [dir_watcher.py:__init__():211] watching files in: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240130_164130-qpeyis91/files
+2024-01-30 16:41:30,683 INFO    SenderThread:33898 [sender.py:_start_run_threads():1124] run started: qpeyis91 with start time 1706629290.237669
+2024-01-30 16:41:30,711 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: check_version
+2024-01-30 16:41:30,711 DEBUG   SenderThread:33898 [sender.py:send_request():407] send_request: check_version
+2024-01-30 16:41:30,765 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: run_start
+2024-01-30 16:41:30,769 DEBUG   HandlerThread:33898 [system_info.py:__init__():32] System info init
+2024-01-30 16:41:30,769 DEBUG   HandlerThread:33898 [system_info.py:__init__():47] System info init done
+2024-01-30 16:41:30,769 INFO    HandlerThread:33898 [system_monitor.py:start():194] Starting system monitor
+2024-01-30 16:41:30,769 INFO    SystemMonitor:33898 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-01-30 16:41:30,769 INFO    HandlerThread:33898 [system_monitor.py:probe():214] Collecting system info
+2024-01-30 16:41:30,770 INFO    SystemMonitor:33898 [interfaces.py:start():190] Started cpu monitoring
+2024-01-30 16:41:30,770 INFO    SystemMonitor:33898 [interfaces.py:start():190] Started disk monitoring
+2024-01-30 16:41:30,771 DEBUG   HandlerThread:33898 [system_info.py:probe():196] Probing system
+2024-01-30 16:41:30,775 INFO    SystemMonitor:33898 [interfaces.py:start():190] Started memory monitoring
+2024-01-30 16:41:30,776 INFO    SystemMonitor:33898 [interfaces.py:start():190] Started network monitoring
+2024-01-30 16:41:30,788 DEBUG   HandlerThread:33898 [system_info.py:_probe_git():181] Probing git
+2024-01-30 16:41:30,832 DEBUG   HandlerThread:33898 [system_info.py:_probe_git():189] Probing git done
+2024-01-30 16:41:30,833 DEBUG   HandlerThread:33898 [system_info.py:probe():244] Probing system done
+2024-01-30 16:41:30,833 DEBUG   HandlerThread:33898 [system_monitor.py:probe():223] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.8.10', 'heartbeatAt': '2024-01-30T15:41:30.775509', 'startedAt': '2024-01-30T15:41:30.220714', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'git@github.com:TianzhengHU/ML4Graphs_DGI.git', 'commit': '8dd7d46ebd8911b4f970ed5b391b8ef7457678d6'}, 'email': 'mashtz@163.com', 'root': '/Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI', 'host': 'hutianzhengdeMacBook-Pro.local', 'username': 'hutianzheng', 'executable': '/opt/anaconda3/envs/DeepL/bin/python3.8', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 2400, 'min': 2400, 'max': 2400}, 'cpu_freq_per_core': [{'current': 2400, 'min': 2400, 'max': 2400}], 'disk': {'/': {'total': 460.4317207336426, 'used': 9.435829162597656}}, 'memory': {'total': 8.0}}
+2024-01-30 16:41:30,833 INFO    HandlerThread:33898 [system_monitor.py:probe():224] Finished collecting system info
+2024-01-30 16:41:30,833 INFO    HandlerThread:33898 [system_monitor.py:probe():227] Publishing system info
+2024-01-30 16:41:30,833 DEBUG   HandlerThread:33898 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2024-01-30 16:41:30,834 DEBUG   HandlerThread:33898 [system_info.py:_save_pip():68] Saving pip packages done
+2024-01-30 16:41:30,834 DEBUG   HandlerThread:33898 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2024-01-30 16:41:31,692 INFO    Thread-16 :33898 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240130_164130-qpeyis91/files/conda-environment.yaml
+2024-01-30 16:41:31,692 INFO    Thread-16 :33898 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240130_164130-qpeyis91/files/requirements.txt
+2024-01-30 16:41:40,018 DEBUG   HandlerThread:33898 [system_info.py:_save_conda():87] Saving conda packages done
+2024-01-30 16:41:40,019 INFO    HandlerThread:33898 [system_monitor.py:probe():229] Finished publishing system info
+2024-01-30 16:41:40,032 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 16:41:40,032 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: keepalive
+2024-01-30 16:41:40,032 DEBUG   SenderThread:33898 [sender.py:send():380] send: files
+2024-01-30 16:41:40,033 INFO    SenderThread:33898 [sender.py:_save_file():1380] saving file wandb-metadata.json with policy now
+2024-01-30 16:41:40,045 DEBUG   SenderThread:33898 [sender.py:send():380] send: telemetry
+2024-01-30 16:41:40,049 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 16:41:40,049 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 16:41:40,050 DEBUG   SenderThread:33898 [sender.py:send_request():407] send_request: stop_status
+2024-01-30 16:41:40,728 INFO    Thread-16 :33898 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240130_164130-qpeyis91/files/conda-environment.yaml
+2024-01-30 16:41:40,729 INFO    Thread-16 :33898 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240130_164130-qpeyis91/files/wandb-metadata.json
+2024-01-30 16:41:43,933 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 16:41:45,130 INFO    wandb-upload_0:33898 [upload_job.py:push():131] Uploaded file /var/folders/yk/tq09n1b16d3gv0_xwdh9yw600000gn/T/tmp_v4rn9pmwandb/vjqqbpiv-wandb-metadata.json
+2024-01-30 16:41:48,951 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 16:41:53,972 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 16:41:55,053 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: stop_status
+2024-01-30 16:41:55,054 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: internal_messages
+2024-01-30 16:41:55,055 DEBUG   SenderThread:33898 [sender.py:send_request():407] send_request: stop_status
+2024-01-30 16:41:58,837 INFO    Thread-16 :33898 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240130_164130-qpeyis91/files/output.log
+2024-01-30 16:41:59,775 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 16:42:00,859 INFO    Thread-16 :33898 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240130_164130-qpeyis91/files/output.log
+2024-01-30 16:42:04,807 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: status_report
+2024-01-30 16:42:05,898 INFO    Thread-16 :33898 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/hutianzheng/Desktop/studying/Y2-P3-ml4grpahs/DGI_CODE/ML4Graphs_DGI/wandb/run-20240130_164130-qpeyis91/files/config.yaml
+2024-01-30 16:42:10,051 DEBUG   HandlerThread:33898 [handler.py:handle_request():146] handle_request: status_report
