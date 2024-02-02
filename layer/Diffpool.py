@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-# Applies an Diffpool on seq, of shape (batch, nodes, features)
+# Applies a Diffpool on seq, of shape (batch, nodes, features)
 # While taking into account the masking of msk
 class Diffpool(nn.Module):
     # Diffpool(node_num, in_features, out_features)

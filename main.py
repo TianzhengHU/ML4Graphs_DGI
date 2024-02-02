@@ -14,13 +14,14 @@ batch_size = 1
 patience = 20
 
 nonlinearity = 'prelu'
-# dataset_name = "cora"
-dataset_name = "citeseer"
+dataset_name = "cora"
+# dataset_name = "citeseer"
+# dataset_name = "PubMed"
 
 # Load dataset
 A, features, labels, idx_train, idx_val, idx_test = dataloader.load_data_cite(dataset_name)
-# func = "average"
-func = "diffpool"
+func = "average"
+# func = "diffpool"
 # func = "sum_norm"
 
 pname = "ML4Grpahs_DGI_"

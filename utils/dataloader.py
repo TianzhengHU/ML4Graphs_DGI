@@ -14,6 +14,8 @@ def load_data_cite(dataset_name):
         dataset_citeseer = Planetoid(root='./data/citeseer/',name='Citeseer')
     if (dataset_name == "cora"):
         dataset_citeseer = Planetoid(root='./data/cora/', name='Cora')
+    if (dataset_name == "PubMed"):
+        dataset_citeseer = Planetoid(root='./data/PubMed/', name='PubMed')
     print(dataset_citeseer)
 
     data_citeseer = dataset_citeseer[0].to(device)
@@ -23,7 +25,6 @@ def load_data_cite(dataset_name):
     # print(data_citeseer)
 
     # -------------------
-    # need to get adj, features(in vstack format), labels(in 3327,6-hot shape); idx_train, idx_val, idx_test are index
     num_nodes = dataset_citeseer.x.shape[0]
     num_edges = data_citeseer.num_edges
     edges_reindexed = data_citeseer.edge_index
@@ -52,14 +53,14 @@ def load_data_cite(dataset_name):
     for i, indices in enumerate(data_citeseer.y.tolist()):
         labels[i, indices] = 1
 
-    # 4 get idx_train
+    # 4 get idx_train, idx_val, idx_test
     idx_train = data_citeseer.train_mask
     idx_val = data_citeseer.val_mask
     idx_test = data_citeseer.test_mask
     return A, features, labels, idx_train, idx_val, idx_test
 
 def get_A_hat_torch(A):
-    # A_hat = DAD
+    # A_hat = DAD for GCN
     A_tilde = coo_matrix(A, dtype=float)
     degrees = A_tilde.sum(axis=1).flatten().A
     Diag_matrix = diags(degrees, list(range(len(degrees))), dtype=float)
@@ -74,7 +75,7 @@ def normalize_features(features):
     # remornalized the featrure matrix
     """Row-normalize feature matrix and convert to tuple representation"""
     rowsum = np.array(features.sum(1))
-    # 添加异常值处理，除以0的问题
+    # deal with some error 0 value
     rowsum[rowsum == 0] = 1e-10
     r_inv = np.power(rowsum, -1).flatten()
     r_inv[np.isinf(r_inv)] = 0.
@@ -83,6 +84,7 @@ def normalize_features(features):
     features = torch.FloatTensor(features[np.newaxis])
     return features
 
+# no need anymore 
 # A, features, labels, idx_train, idx_val, idx_test = load_data_cite(dataset_name)
 # adj = get_A_hat_torch(A)
 # features = normalize_features(features)
